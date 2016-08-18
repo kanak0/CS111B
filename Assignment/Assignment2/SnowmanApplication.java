@@ -76,7 +76,7 @@ class SnowmanPanel extends JPanel
       page.fillOval (MID+5, TOP+10, 5, 5);    // right eye
 
 //      page.drawArc (MID-10, TOP+20, 20, 10, 190, 160);   // smile
-      page.drawArc (MID-10, TOP+20, 20, 10, 170, -160);   // (2) not smile
+      page.drawArc (MID-10, TOP+20, 20, 10, 10, 160);   // (2) not smile
       
       page.drawLine (MID-25, TOP+60, MID-50, TOP+40);  // left arm
       page.drawLine (MID+25, TOP+60, MID+55, TOP+60);  // right arm
@@ -84,7 +84,7 @@ class SnowmanPanel extends JPanel
       page.drawLine (MID-20, TOP+5, MID+20, TOP+5);  // brim of hat
       page.fillRect (MID-15, TOP-20, 30, 25);        // top of hat
       
-      page.drawString ("Kanako Kunieda", 10, 20); // (1) my name in the upper-left corner 
+      page.drawString ("Kanako", 10, 20); // (1) my name in the upper-left corner 
    }
 }
 
